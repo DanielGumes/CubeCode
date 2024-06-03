@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+        <title>CubeCode</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Link para a página css geral -->
+
+    </head>
+    <body>
+
+        <!-- Cabeçalho (Menus) -->
+        
+        <header class="header">
+            <section>
+                <a href="#" class="logo">
+                    <img src="./Img/LogoMenor.png" alt="logo">
+                </a>
+
+                <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#empresa">Empresa</a>
+                    <a href="#solucao">Solução</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+
+                <div class="icons">
+                    <img onclick="alertaGeral()" width="30" height="30" src="https://img.icons8.com/ios/50/ffffff/search--v1.png" alt="search--v1"/>
+                    <img onclick="alertaGeral()" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+                </div>
+            </section>
+        </header>
+
+        <!-- Inicio (Home) -->
+
+        <div class="home-container">
+            <section id="home">
+                <div class="content">
+                    <h3>Controle sua <span>casa</span> com um clique</h3>
+                    <p>A solução perfeita para quem busca praticidade, conforto e segurança. Com tecnologia de ponta e um sistema intuitivo, você controla a sua casa de forma fácil e eficiente, a um preço que cabe no bolso.</p>
+                    <a href="#solucao" class="btn">Soluções</a>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sobre Nós (Empresa) -->
+
+        <section class="about" id="empresa">
+            <h2 class="title">Sobre nós</h2>
+            <div class="row">
+                <div class="container-image">
+                    <img src="./Img/comoFunciona.jpg">
+                </div>
+                <div class="content">
+                    <h3>CubeCode</h3>
+                    <p>A Cubecode é uma empresa líder em soluções de automação residencial, dedicada a trasformar casas comuns em espaços inteligentes e conectados. Com uma equipe de especialistas em tecnologia, estamos comprometidos em proporcionar aos nossos clientes uma experiência única, onde o conforto, a conveniência e a segurança são prioridade.</p>
+                    <p>Na Cubecode, valorizamos a inovação para melhorar a qualidade de vida, adaptando cada projeto às necessidades específicas dos clientes. Utilizamos tecnologias avançadas, como inteligência artificial e Internet das Coisas (IoT), para integrar e facilitar o controle de iluminação, temperatura, segurança e entretenimento em residências.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Como Funciona () -->
+
+        <section class="comoFunciona-geral">
+            <h2 class="title">Como Funciona</h2>
+
+            <div class="comoFunciona-content">
+                <div class="comoFunciona-img">
+                    <img src="./Img/Premium.jpg">
+                </div>
+
+                <div class="comoFunciona-textos">
+                    <p class="text-princ">Sincronizar os dispositivos da sua casa e controlar tudo pelo seu smartphone nunca foi tão fácil.</p>
+                    <ul class="comoFunciona-list">
+                        <li>
+                            <i class="fa fa-chevron-right"></i>
+                            <p>Casas inteligentes são projetadas para reduzir o consumo de energia através de controle inteligente de iluminação e temperatura, e integração de fontes de energia renovável.</p>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-chevron-right"></i>
+                            <p>Coletam dados sobre o ambiente e as atividades na casa para automatizar tarefas e aumentar a segurança.</p>
+                        </li>
+
+                        <li>
+                            <i class="fa fa-chevron-right"></i>
+                            <p>Utiliza assistentes virtuais e IA para responder a comandos de voz, executar tarefas e fornecer informações personalizadas ao usuário.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="comoFunciona-content">
+                <div class="comoFunciona-textos">
+                    <p class="text-princ">Transforme sua casa em um lar inteligente sem fio</p>
+                    <ul class="comoFunciona-list">
+                        <li>
+                            <p>Nossa solução de automação residencial é a escolha perfeita para quem quer facilidade e praticidade sem a necessidade de quebrar paredes ou passar fios! Com nossa abordagem centralizada, você pode controlar uma ampla gama de dispositivos inteligentes em sua casa com total conforto e sem dores de cabeça.</p>
+                        </li>
+                        <li>
+                            <p>Aproveite o futuro da automação residencial e descubra como é fácil ter uma casa inteligente! Com nossa solução sem fios, você pode controlar vários dispositivos inteligentes em sua casa, desde a iluminação até a segurança, com apenas um toque no seu smartphone ou tablet.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="comoFunciona-img">
+                    <img src="./Img/casaSmart.jpg">
+                </div>
+            </div>
+           
+        </section>
+
+        <!-- Soluções (Solução) -->
+
+        <section class="solucao" id="solucao">
+            <h2 class="title">Solução</h2>
+
+            <div class="box-container">
+                <div class="box">
+                    <i class="fa fa-lightbulb"></i>
+                    <h3>iluminação</h3>
+                    <p>Acenda, apague, dimerize e monitore o consumo em tempo real das luzes de forma prática e inteligente: remotamente, via aplicativo ou por comando de voz.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fa fa-bars"></i>
+                    <h3>Cortinas e Persianas</h3>
+                    <p>Controle suas cortinas e persianas com facilidade e conveniência, usando aplicativos ou comandos de voz, para ajustar a luz natural e a privacidade em sua casa.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fa fa-door-closed"></i>
+                    <h3>Porta e portões</h3>
+                    <p>Tenha acesso seguro e inteligente às portas e portões da sua casa, controlando-os remotamente através de aplicativos ou comandos de voz.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fa fa-blender"></i>
+                    <h3>Eletrodomésticos</h3>
+                    <p>Conecte e gerencie seus eletrodomésticos com eficiência e praticidade, controlando-os a distância através de aplicativos ou comandos de voz.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fa fa-music"></i>
+                    <h3>Áudio e vídeo</h3>
+                    <p>Desfrute de uma experiência de entretenimento imersiva em sua casa, controlando sistemas de áudio e vídeo de forma centralizada com aplicativos ou comandos de voz.</p>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- Contato -->
+
+        <section class="location">   
+            <h2 class="title" id="contato">Contato</h2>     
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1506021014316!2d-46.67274411846491!3d-23.527085124220978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5803c5832753%3A0x8b9b274a80cffaf8!2sUNINOVE%20-%20Campus%20Memorial%20(Pr%C3%A9dio%20D)!5e0!3m2!1spt-BR!2sbr!4v1714055462633!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact">
+            <div class="localization">
+
+                <div>
+                    <i class="fa fa-location-dot"></i>
+                    <h5>Rua Deputado Salvador Julianelli, 900</h5>
+                    <p>Barra funda, São Paulo, Brasil</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <h5>(11) 93481-3646</h5>
+                    <p>Segunda a Sexta, 10am até 6pm</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <h5>cubecodee@gmail.com</h5>
+                    <p>email para suporte</p>
+                </div>
+
+            </div>
+        
+
+            
+            <div class="localization">
+
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="6a635a46-dc10-4acd-8ef2-c24d3df0ab37">
+
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <input type="tel" name="phone" placeholder="Digite seu numero" autocomplete="off" required>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                    <textarea name="message" rows="10" placeholder="Menssagem"></textarea>
+                    
+                    <button type="submit" class="btn" value="submit">Enviar</button>
+
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/index.html">
+                    
+                </form>
+
+            </div> 
+        </section>
+
+        <!-- footer -->
+
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>CubeCode</h1>
+                    <p>It's all about your drems</p>
+
+                    <div id="footer_social_media">
+                        <a onclick="alertaGeral()" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a onclick="alertaGeral()" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a onclick="alertaGeral()" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Blog</h3>
+                    </li>
+                    <li>
+                        <a onclick="alertaGeral()" class="footer-link">Tech</a>
+                    </li>
+                    <li>
+                        <a onclick="alertaGeral()" class="footer-link">Adventures</a>
+                    </li>
+                    <li>
+                        <a onclick="alertaGeral()" class="footer-link">Music</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Product</h3>
+                    </li>
+                    <li>
+                        <a onclick="alertaGeral()" class="footer-link">App</a>
+                    </li>
+                    <li>
+                        <a onclick="alertaGeral()" class="footer-link">Desktop</a>
+                    </li>
+                    <li>
+                        <a onclick="alertaGeral()" class="footer-link">Cloud</a>
+                    </li>
+                </ul>
+
+                <div id="footer_subscribe">
+                    <h3>Subscribe</h3>
+
+                    <p>Enter your e-mail to get notified about our news solutions</p>
+
+                    <div id="input_group">
+                        <input type="email" id="#">
+                        <button>
+                            <i onclick="alertaGeral()" class="fa-solid fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer_copyright">
+                &#169
+                2024 all rights reserve
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
