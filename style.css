@@ -27,7 +27,7 @@ section {
 }
 
 span {
-    -webkit-text-fill-color: #696969;
+    -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px var(--main-color);
 }
 
